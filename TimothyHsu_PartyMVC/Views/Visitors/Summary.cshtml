@@ -1,0 +1,11 @@
+﻿@{
+    var total = TempData.Peek("TotalGuests");
+    var totalFamily = TempData.Peek("TotalFamily");
+    var youngest = TempData.Peek("YoungestAge");
+    var oldest = TempData.Peek("OldestAge");
+}
+<h1>Summary</h1>
+<h3>Total guests: @total</h3>
+<h3>Total family members: @totalFamily</h3>
+<h3>Youngest guest age: @youngest</h3>
+<h3>Oldest guest age: @oldest</h3>
